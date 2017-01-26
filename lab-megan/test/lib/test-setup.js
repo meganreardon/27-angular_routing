@@ -1,4 +1,4 @@
 'use strict';
 
-require('../../entry.js');
+require('../../app/entry.js');
 require('angular-mocks');

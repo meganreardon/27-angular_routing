@@ -9,12 +9,12 @@ module.exports = function(config) {
     basePath: '',
     frameworks: ['jasmine'],
     files: [
-      'app/test/*-test.js'
+      'test/**/*-test.js'
     ],
     exclude: [
     ],
     preprocessors: {
-      'app/test/*-test.js' : ['webpack']
+      'test/**/*-test.js' : ['webpack']
     },
     reporters: ['mocha'],
     port: 9876,
