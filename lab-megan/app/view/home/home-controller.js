@@ -7,5 +7,5 @@ module.exports = ['$log', HomeController];
 function HomeController($log) {
   $log.debug('HomeController');
 
-  this.title = 'home test title';
+  this.title = 'welcome to the home page';
 }
