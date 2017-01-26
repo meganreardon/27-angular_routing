@@ -9,7 +9,7 @@ function routerConfig($stateProvider, $urlRouterProvider) {
     {
       name: 'home',
       url: '/home',
-      title: 'home',
+      // title: 'home',
       template: require('../view/home/home.html'),
       controller: 'HomeController',
       controllerAs: 'homeCtrl'
@@ -17,7 +17,7 @@ function routerConfig($stateProvider, $urlRouterProvider) {
     {
       name: 'signup',
       url: '/signup',
-      title: 'signup',
+      // title: 'signup',
       template: require('../view/signup/signup.html'),
       controller: 'SignupController',
       controllerAs: 'signupCtrl'
@@ -25,7 +25,7 @@ function routerConfig($stateProvider, $urlRouterProvider) {
     {
       name: 'album',
       url: '/album',
-      title: 'album',
+      // title: 'album',
       template: require('../view/album/album.html'),
       controller: 'AlbumController',
       controllerAs: 'albumCtrl'
