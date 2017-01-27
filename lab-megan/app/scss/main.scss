@@ -1,6 +1,112 @@
 
+// examples
+$brand-primary: #444;
+$btn-primary: $brand-primary / 2;
+$btn-hover: $brand-primary * 2;
+$black: #333;
+$white: #fff;
+$green: #80BD50;
+$box-std: 40%;
+$gutter-std: 5%;
+$gutter-sm: $gutter-std / 2;
+$gutter-xsm: $gutter-std / 3;
+
+// vars
+$white: #fff;
+$black: #000;
+$graydark: #444;
+$graylight: #888;
+
 html, body {
   width: 100%;
   height: 100%;
   background: #888;
+  font-family: helvetica;
+  font-size: 2vw;
+}
+
+header {
+  background: $graydark;
+  color: $white;
+  text-transform: uppercase;
+  padding: $gutter-std;
+  font-size: 2vw;
+  // margin: $gutter-std;
+}
+
+header a {
+  color: $white;
+  display: flex;
+}
+
+footer {
+  background: $graydark;
+  color: $white;
+  text-transform: uppercase;
+  padding: $gutter-std;
+  // margin: auto 0;
+  font-size: 2vw;
+  margin: 0 auto;
+}
+
+main {
+  background: $graylight;
+  color: $black;
+  text-transform: uppercase;
+  padding: $gutter-std;
+  min-height: 50%;
+}
+
+h1 {
+  // float: left;
+  font-size: 2.8vw;
+  display: flex;
+  justify-content: flex-start;
+  // background: red;
+  width: 50%;
+}
+
+ul {
+  // background: red;
+  // width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  // display: inline-block;
+  // float: right;
+  // background: red;
+  // margin: $gutter-sm;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  text-transform: uppercase;
+  color: $white;
+  // margin: 0 $gutter-std 0 $gutter-std;
+  margin: 0px 10px;
+  // background: red;
+}
+
+li a:hover {
+  color: #ffa500;
+}
+
+ui-view {
+  width: $box-std;
+  padding: $gutter-std;
+  // margin: auto 0;
+}
+
+.footer {
+  // margin: 0 auto;
+  text-align: center;
+  // width: $box-std;
+  // background: red;
+  font-size: 1.2vw;
 }
